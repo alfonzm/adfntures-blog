@@ -1,0 +1,16 @@
+# Site settings
+title: "ADFNTURES"
+email: hello@fonxnix.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.fonxnix.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+
+# Build settings
+markdown: kramdown
+
+# Outputting
+permalink: /:title/
+
+# Meta
+keywords: travel, adventure, journey, trips, alfonz, montelibano, danica, impang, blog, philippines, tourism
+description: ADFNTURES is a travel blog by Alfonz Montelibano & Danica Impang (a.k.a. Fonx & Nix). Follow us as we tour around the country looking for hidden gems!

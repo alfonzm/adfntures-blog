@@ -1,0 +1,29 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.hidden != true %}
+        <li class="post-list-item">
+          {% if post.image %}
+          <img src="/images/{{post.image}}"/>
+          {% endif %}
+
+          <div class="post-list-header">
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <span class="post-meta"><a href="{{ post.url | prepend: site.baseurl }}">by {{ post.author}} · {{ post.date | date: "%b %-d, %Y" }}</a></span>
+          </div>
+
+          <p>{{post.intro}} <a href="{{ post.url }}">Read more...</a></p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

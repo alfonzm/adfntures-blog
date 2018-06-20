@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Hello!"
+date:   2016-01-01 00:00:00
+categories: jekyll update
+author: Alfonz Montelibano & Danica Impang
+image: about.jpg
+twitter-image: about.jpg
+intro: We are Alfonz Montelibano and Danica Impang (a.k.a. Fonx & Nix), and we're on a journey of filling that map below with more of those little black markers.
+---
+
+This is Alfonz Montelibano and Danica Impang (a.k.a. Fonx & Nix), and we're on a journey of filling that [map](/destinations) below with more of those little black markers.
+
+Our country, the Philippines, is known for its shitty internet service providers, pollution and corrupt politicians, but it's also fortunate to be teemed with majestic sceneries, beautiful beaches and several other hidden gems, and that's our goal—to see and experience first-hand as many of those as we can. This website will be our journal thingy of sorts.
+
+Follow us on our social media accounts for updates! Or see posts tagged with #adFNtures on [Instagram](http://instagram.com/explore/tags/adfntures/) or [Twitter](https://twitter.com/search?q=adfntures).
+
+<div id="social-links">
+<p>• @alfonzm <a href="http://twitter.com/alfonzm"><i class="fa fa-lg fa-twitter"></i></a> <a href="http://instagram.com/alfonzm"><i class="fa fa-lg fa-instagram"></i></a></p>
+• @danicagale <a href="http://twitter.com/danicagale"><i class="fa fa-lg fa-twitter"></i></a> <a href="http://instagram.com/danicagale"><i class="fa fa-lg fa-instagram"> </i></a>
+</div>

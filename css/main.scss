@@ -1,0 +1,85 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face{
+	font-family: 'Circular';
+	font-weight: 700;
+	src: url('lineto-circular-bold.ttf');	
+}
+@font-face{
+	font-family: 'Circular';
+	font-weight: 500;
+	src: url('lineto-circular-medium.ttf');	
+}
+@font-face{
+	font-family: 'Circular';
+	font-weight: 300;
+	src: url('lineto-circular-book.ttf');	
+}
+@font-face{
+	font-family: 'Avenir';
+	font-weight: 700;
+	src: url('bold.otf');	
+}
+@font-face{
+	font-family: 'Avenir';
+	font-weight: 400;
+	src: url('book.otf');	
+}
+// @font-face{
+// 	font-family: 'Avenir';
+// 	font-weight: 300;
+// 	src: url('light.otf');	
+// }
+
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+
+// Our variables
+$base-font-family: 'Avenir', sans-serif;
+$alt-font-family: 'Circular', sans-serif;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.7;
+
+$spacing-unit:     30px;
+
+$text-color:       rgba(0,0,0,0.8);
+$dark-text-color:  rgba(0,0,0,0.8);
+$background-color: #ffffff;
+$brand-color:      lighten(#2a7ae2, 10%);
+
+$grey-color:       #bbb;
+$grey-color-light: lighten($grey-color, 22%);
+$grey-color-dark:  darken($grey-color, 50%);
+
+// Width of the content area
+$content-width:    1000px;
+
+$on-palm:          768px;
+$on-laptop:        1000px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;

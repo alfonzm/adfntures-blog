@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    {%if page.image %}
+    <img src="/images/{{ page.image }}" class="post-cover-image" />
+    <!-- <div class="cover-img img-placeholder" data-large="/images/{{ page.image }}"> -->
+    <!-- <img src="/images/small/{{ page.image }}" class="cover-img img-small"> -->
+    <!-- <div style="padding-bottom: 50%;"></div> -->
+    <!-- </div> -->
+    {% endif %}
+
+    {%if page.title =='Destinations' %}
+    <div class="page-content2">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </div>  
+    <div id="places">
+        {% include map.html %}
+    </div>
+    {%else%}
+    <div class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </div>
+    {%endif%}
+
+    {%if page.title == 'About' %}
+    {% include map.html %}
+    {% endif %}
+
+    {%if page.title == 'Hello!' %}
+    {% include map.html %}
+    {% endif %}
+
+    {% include footer.html %}
+
+    <script>
+    // window.onload = function() {
+    //     var placeholders = $('.img-placeholder');
+    //     for (var i = 0; i < placeholders.length; i++) {
+    //         loadImage(placeholders[i]);
+    //     }
+    //     function loadImage(placeholder) {
+    //         var small = placeholder.children[0];
+    //         // 1: load small image and show it
+    //         var img = new Image();
+    //         img.src = small.src;
+    //         img.onload = function() {
+    //             small.classList.add('loaded');
+    //         };
+    //         // 2: load large image
+    //         var imgLarge = new Image();
+    //         imgLarge.src = placeholder.dataset.large;
+    //         imgLarge.onload = function() {
+    //             imgLarge.classList.add('loaded');
+    //         };
+    //         placeholder.appendChild(imgLarge);
+    //     }
+    // }
+    </script>
+</body>
+
+</html>

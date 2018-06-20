@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Happy 6 Years!"
+date:   2016-04-19 00:00:00
+categories: jekyll update
+author: Alfonz Montelibano
+image: six-years/cover.JPG
+twitter-image: six-years/cover.JPG
+intro: Wait, what? Six years already?
+---
+
+__Wait, what? _Six_ years already?__
+
+I know how much Nix loves to blow candles, so I surprised her with a cake very early in the morning of April 10th she actually got upset while I was trying to wake her up. Oh and the third candle fell down while we took this photo, resulting in awkward facial expressions hahaha.
+
+__![](/images/six-years/cake2.JPG)__
+
+Nix and I are simple people and for anniversaries prefer movie dates ([10 Cloverfield Lane](http://www.imdb.com/title/tt1179933/) was damn entertaining), _kinamot_ dinners ([Bucket Shrimps](https://www.facebook.com/Bucket-Shrimps-CYCMactan-777923388989510/) at Cebu Yacht Club!) and late night coffee over romantic candlelight dinners and overpriced flower bouquets anytime.
+
+In addition, to celebrate our 6th Anniversary, we compiled a video of all the awesome things we did in the first quarter of 2016, which so far, has been such a great year to us—mini adventuring at Dahilayan, Dumaguete/Apo Island trip, South Cebu waterfalls hopping, Wanderland festival, and just very recently, Hermit's Cove (blog post coming soon!) and Panglao Island—all in the first four months! Could this finally be _our_ year? Well, there's still two-thirds of the year more to find out! \*fingers-crossed\*
+
+Here's to another year of whatever life throws at us—more travel-y stuff, hopefully!
+
+<p>
+	<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/162187365' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+</p>
